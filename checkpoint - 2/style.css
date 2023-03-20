@@ -1,0 +1,103 @@
+li{
+    display: inline;
+}
+body{
+    background-color: #737171;
+    font-family: "Roboto";
+}
+div{
+    color: black;
+
+}
+h3 {
+   background-color: #333;
+   
+}
+
+
+.pInfo{
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    
+}
+#navBut {
+    text-align: center;
+    display: center;
+    width: 290px;
+    height: 47px;
+    background-color: #333;
+    
+}
+#navBut a {
+   display: inline-block;
+  background-color: #333; 
+  border: none; 
+  color: white; 
+  padding: 3px 3px;
+  text-decoration: none; 
+  font-size: 12px; 
+  
+  cursor: pointer;
+  border-radius: 8px; 
+}
+#navBut a:hover{
+  background-color: #111;
+}
+
+ul {
+  
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  li {
+   
+    float: left;
+  }
+  
+ li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li > a:hover {
+    background-color: #111;
+  }
+
+
+
+
+  
+  input[type="text"]  ,input[type="date"] , input[type="number"] , input[type="email"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  label {
+    font-size: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #111;
+  }
